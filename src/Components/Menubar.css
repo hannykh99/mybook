@@ -1,0 +1,142 @@
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.search-container {
+  width: 100%;
+  background-color: #60eb80;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.search-inner {
+  
+  display: flex;
+  align-items: center;
+  width: 50%;
+  max-width: 500px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.dropdown {
+  position: absolute;
+  width: 50%;
+  max-width: 500px;
+  left: 50%; /* Use left property to center the dropdown */
+  transform: translateX(-50%); /* Use transform property to center the dropdown */
+  margin-top: 206px;
+  background-color: #8ad86b;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.dropdown-row {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-row:hover {
+  background-color: #9ae29c;
+}
+
+
+
+
+/* CSS Styles */
+
+.offcanvas {
+  background-color: #c2ccbc;
+  color: black;
+  font-size: 20px;
+}
+
+
+.offcanvas-header {
+  padding: 1rem;
+  border-bottom: 1px solid #c6dcf3;
+
+}
+
+.offcanvas-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.offcanvas-body {
+  padding: 1rem;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: #212320;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.nav-link i {
+  margin-right: 0.5rem;
+}
+
+.dark {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.dark-mode-toggle {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background-color: #83e282;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.dark-mode-toggle::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: transform 0.3s ease;
+}
+
+.dark-mode-toggle.dark::before {
+  transform: translateX(10px);
+}
+
+.nav-link:hover,
+.dark-mode-toggle:hover {
+  color: #60eb59;
+}
+

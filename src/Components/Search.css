@@ -1,0 +1,119 @@
+.search-container {
+    display: flex;
+    background-color: #85B09A;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .search-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  
+ .search-inner button{
+  flex-direction: inherit;
+  margin-top: 15px;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-btn);
+  color: var(--color-text-btn);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+  
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid var(--color-btn);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+ }
+
+ 
+
+
+  .search-inner input {
+
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .search-inner button {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #07965d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .search-inner button:hover {
+    background-color: #448809;
+  }
+
+  .search-inner button:active {
+    background-color: #16bf00cc;
+  }
+
+  .dropdown-row {
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+    background-color: rgb(169, 206, 166);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    width: 100vh;
+    height: 100%;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;  
+
+  }
+
+  .dropdown-row:hover {
+    background-color: #87dc4d;
+  }
+
+  
+  
+
+
+

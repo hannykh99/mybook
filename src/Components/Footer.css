@@ -1,0 +1,126 @@
+::root {
+    font-family: 'Noto Serif Khmer', serif;
+    --back-groud-color: #85B09A;
+    --text-color: #fff;
+    --hover-color: #29AB87;
+    --color-card:  #FDBCB4;
+    --title:#FAD6A5  ;
+    --p-text:##004c4c;
+    --font-size-title: 20px ;
+    --font-size-p: 18px; 
+  }
+
+.footer  {
+    position: flex;
+    width: 100%; /* Ensure full width */
+   top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color:#85B09A; 
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+
+  }
+
+  .navbar-brand  {
+    font-size: 24px; /* Adjust this value as needed */
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  .ft-1 , ft-2 , ft-3 {
+    font-size: 18px; /* Adjust this value as needed */
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+ .ft-2,ft-3 h3 {
+    font-size: 20px; /* Adjust this value as needed */
+    font-weight: bold;
+    color: #FAD6A5 ;
+    margin: 0;
+    padding: 0;
+  }
+
+  .text{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .footer-icons lu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-icons li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .footer-icons a {
+    text-decoration: none;
+    padding : 0.5rem;
+    color: white;
+    font-size: 20px;
+  }
+
+  .ft-2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+ 
+
+  .ft-2 li {
+    display:block;  
+    margin-right: 5px;
+  }
+
+  .ft-2 a {
+    text-decoration: none;
+    padding : 0.5rem;
+    color: white;
+    font-size: 20px;
+  }
+
+  .ft-1 a:hover {
+    color: #60eb59;
+  }
+  .ft-2 a:hover {
+    color: #60eb59;
+  }
+  
+ .lastfooter{
+     
+     background-color: #29AB87;
+     color: white;
+     text-align: center;
+
+     
+ }
+ 
+ .text-muted {
+     color: white;
+     font-weight: 700;
+     font-size: 20px;
+     padding: 1rem;
+     margin: 1rem;
+     text-align: center;
+     
+
+ } 
+
+
+ .ft-1 img {
+     width: 50px;
+     height: 50px;
+ }
