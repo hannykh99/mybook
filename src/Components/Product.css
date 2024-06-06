@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
 
     outline: none;
@@ -172,3 +173,178 @@
 
 
 
+=======
+*{
+
+    outline: none;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+.container-1  {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .title-1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #29AB87;     
+
+ } 
+
+ .row-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+   
+ }
+
+.product {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #29AB87;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.126);
+
+}
+
+.product:hover {
+    background: #60eb80;
+    outline: 1rem solid #29AB87;
+    outline-offset: -1.5rem;
+}
+
+.product-img {
+height: 25rem;
+}
+
+.product-img:hover {
+    transform : scale(.9);
+}
+
+.product-name {
+    font-size: 2rem;
+    color: #fff;
+  
+
+}
+
+.price {
+    font-size: 2rem;
+    color: #fff;
+
+}
+
+.products-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+   min-width: 100vh; 
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.preview {
+    display: none;
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    margin: 2rem;
+    width: 40rem;
+}
+
+.preview.active {
+    display: inline-block;
+}
+
+.preview-img {
+    height: 30rem;
+    width: 100%;
+
+}
+
+.fa-times {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+    color: #777;
+    font-size: 4rem;
+}
+
+.fa-times:hover {
+    transform: rotate(90deg);
+}
+product-name-1 {
+    font-size: 2rem;
+    color: #fff;
+    padding: 5rem 0;
+
+}
+
+.stars {
+    color: gold;
+    font-size: 2rem;
+    padding: 1rem 0;
+
+}
+
+.description {
+    font-size: 1.5rem;
+    color: #777;
+    padding: 1rem 0;
+}
+
+.price-1 {
+    font-size: 2rem;
+    color: #29AB87;
+    padding: 1rem 0;
+}
+.cart-btn {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.cart-btn.a{
+    flex: 1 1 30rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+    background: #29AB87;
+    border-radius: .5rem;
+    border: 1rem solid #29AB87;
+
+}
+
+
+
+@media (max-width: 991px) {
+    .preview {
+        width: 30rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+>>>>>>> ea20c38978ad516912f6dd644651f99eb7a9662c
