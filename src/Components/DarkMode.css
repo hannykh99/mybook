@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .dark_mode {
     display: flex;
     align-items: center;
@@ -47,54 +47,4 @@
     /* Light mode styles */
     background-color: #fff;
     color: #000;
-=======
-.dark_mode {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-  
-.dark_mode_input {
-    display: none;
-}
-  
-.dark_mode_label {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-  
-.dark_mode_label svg {
-    width: 30px;
-    height: 30px;
-    margin-right: 300px;
-
-}
-
-
-  
-.dark_mode_label svg path {
-  fill: #198919;
-}
-  
-.dark_mode_input:checked + .dark_mode_label svg:first-child {
-    display: none;
-}
-  
-.dark_mode_input:checked + .dark_mode_label svg:last-child {
-    display: block;
-}
-  
-[data-theme="dark"] {
-    /* Dark mode styles */
-    background-color: #0d0d0e;
-    color: #fff;
-}
-  
-[data-theme="light"] {
-    /* Light mode styles */
-    background-color: #fff;
-    color: #000;
->>>>>>> ea20c38978ad516912f6dd644651f99eb7a9662c
 }
